@@ -137,3 +137,12 @@ footer span span{margin:0 10px}
 .organizer-link:hover h3{text-decoration:underline;text-underline-offset:3px}
 .organizer-link:focus-visible{outline:3px solid var(--red);outline-offset:5px}
 @media(max-width:540px){.organizer-link{padding:8px 8px 17px}}
+
+/* Extra notes add density through paper-edge overlaps, clear of the text. */
+.agency{left:3%;top:489px;width:175px;transform:rotate(3deg)}
+.provenance{left:40%;top:35px;width:208px;transform:rotate(2deg)}
+.collaboration{left:2%;top:233px;width:218px;transform:rotate(-3deg);font-size:23px}
+.autonomy{right:3%;top:572px;width:190px;transform:rotate(3deg)}
+@media(max-width:1100px) and (min-width:901px){.agency{left:1%;width:165px}.collaboration{left:0;width:180px;font-size:21px;padding-inline:12px}.autonomy{right:0;width:165px}.provenance{left:37%;width:195px}}
+@media(max-width:900px){.agency,.provenance,.collaboration,.autonomy{position:relative;inset:auto;width:auto;transform:rotate(-1deg)}.loop{grid-column:1/-1;width:calc(50% - 12.5px)}}
+@media(max-width:540px){.collaboration{font-size:18px;letter-spacing:-.7px}.loop{width:calc(50% - 8.5px)}}

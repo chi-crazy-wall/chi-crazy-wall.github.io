@@ -1,6 +1,6 @@
 # Crazy Wall
 
-A static event page: light corkboard, paper notes, red thread, concise copy. No build, dependencies, external fonts, or third-party requests. A 770-byte gzipped optional script aligns decorative strings to the rendered cards.
+A static event page: light corkboard, paper notes, red thread, concise copy. No build, dependencies, external fonts, or third-party requests. An 829-byte gzipped optional script aligns decorative strings to the rendered cards.
 
 ## Preview
 
@@ -35,12 +35,12 @@ Recorded local checks are summarized below.
 
 Measured locally in headless Microsoft Edge via the existing bundled Playwright:
 
-- 375, 768, and 1440 CSS px: no horizontal overflow or internally overflowing text; all seven terms, five organizers, and exactly two annotations present.
+- 375, 768, and 1440 CSS px: no horizontal overflow or internally overflowing text; all eleven terms, five organizers, and exactly two annotations present.
 - JavaScript disabled at each requested width: complete content, working anchor navigation, and visible 3 px keyboard focus on all three links, including the skip link.
 - CSS viewport of 720 px with 2x pixel density: 200% zoom-equivalent reflow without horizontal overflow. Native browser zoom UI was not exercised.
 - Observed cumulative layout shift: 0 during a local load and one-second observation.
-- Raw HTML + CSS + JS: 24,777 bytes. Gzip-compressed asset payload: approximately 7.4 KB, below the 250 KB target. This is measured compression of the files, not a production network-transfer measurement; Python's preview server serves them uncompressed.
-- Site JavaScript: 1,788 bytes raw, 770 bytes gzipped. HTML, CSS, optional strings.js, plus five locally served, lazy-loaded portraits.
+- Raw HTML + CSS + JS: 26,312 bytes. Gzip-compressed asset payload: 7,759 bytes, below the 250 KB target. This is measured compression of the files, not a production network-transfer measurement; Python's preview server serves them uncompressed.
+- Site JavaScript: 2,061 bytes raw, 829 bytes gzipped. HTML, CSS, optional strings.js, plus five locally served, lazy-loaded portraits.
 - Real PDF link: cannot be tested without the supplied/approved file. Forthcoming fallback verified.
 
 Desktop/mobile/tablet screenshots were visually inspected. Safari, Firefox, screen-reader output, full automated WCAG audits, and production network performance were not tested. No lint/typecheck framework is configured because this is dependency-free HTML/CSS.
@@ -65,3 +65,5 @@ Portraits total approximately 522 KB, excluded from the initial HTML/CSS payload
 The working proposal broadens the focus to changing practices, emerging research questions, and community support. The concise website headline is “What is changing?”; the proposal’s working title is “Outlining the Emerging Research and Praxis Map of AI-Mediated Data Work.” Added Huichen Will Wang (University of Washington) and his public portrait from https://homes.cs.washington.edu/~wwill/ (images/headshot.jpg). Explicitly approved affiliations are preserved. The page remains a proposed event with TBA logistics.
 
 Organizer card destinations: https://srishtipalani.com/, https://www.dylanwootton.com/, https://homes.cs.washington.edu/~wwill/, https://www.vidyasetlur.com/, and https://nicksultanum.github.io/web/. Nicole’s custom domain timed out during verification; her working GitHub-hosted personal website is used instead.
+
+The wall now includes agency, provenance, collaboration, and autonomy, with 17 measured red-thread connections. Desktop overlaps are confined to paper edges. Mobile notes stay in normal flow.

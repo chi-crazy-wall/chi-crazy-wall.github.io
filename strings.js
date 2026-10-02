@@ -12,6 +12,14 @@
     ['.delegation', '.loop'],
     ['.intent', '.loop'],
     ['.intent', '.notice'],
+    ['.agency', '.steering'],
+    ['.agency', '.autonomy'],
+    ['.collaboration', '.oversight'],
+    ['.collaboration', '.provenance'],
+    ['.provenance', '.verification'],
+    ['.provenance', '.monitoring'],
+    ['.autonomy', '.delegation'],
+    ['.autonomy', '.loop'],
   ];
   const paths = connections.map(() => {
     const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
