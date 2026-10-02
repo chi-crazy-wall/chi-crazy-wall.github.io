@@ -64,7 +64,7 @@ Portraits total approximately 522 KB, excluded from the initial HTML/CSS payload
 
 The working proposal broadens the focus to changing practices, emerging research questions, and community support. The concise website headline is “What is changing?”; the proposal’s working title is “Outlining the Emerging Research and Praxis Map of AI-Mediated Data Work.” Added Huichen Will Wang (University of Washington) and his public portrait from https://homes.cs.washington.edu/~wwill/ (images/headshot.jpg). Explicitly approved affiliations are preserved. The page remains a proposed event with TBA logistics.
 
-Organizer card destinations: https://srishtipalani.com/, https://www.dylanwootton.com/, https://homes.cs.washington.edu/~wwill/, https://www.vidyasetlur.com/, and https://nicksultanum.github.io/web/. Nicole’s custom domain timed out during verification; her working GitHub-hosted personal website is used instead.
+Organizer card destinations: https://srishtipalani.com/, https://www.dylanwootton.com/, https://homes.cs.washington.edu/~wwill/, https://www.vidyasetlur.com/, and https://www.tableau.com/research/people/nicole-sultanum. Nicole’s card uses her Tableau Research profile, as requested.
 
 The wall now includes agency, provenance, collaboration, and autonomy, with 17 measured red-thread connections. Desktop overlaps are confined to paper edges. Mobile notes stay in normal flow.
 
