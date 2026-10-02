@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Red pushpin</title>
+  <g transform="rotate(35 32 32)">
+    <path d="M29 37h6v13l-3 11-3-11z" fill="#50554e"/>
+    <path d="M22 14h20v13l8 8v6H14v-6l8-8z" fill="#ad382c"/>
+    <rect x="17" y="5" width="30" height="12" rx="4" fill="#c64737"/>
+    <path d="M23 9h17" stroke="#f2947d" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

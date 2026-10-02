@@ -67,3 +67,7 @@ The working proposal broadens the focus to changing practices, emerging research
 Organizer card destinations: https://srishtipalani.com/, https://www.dylanwootton.com/, https://homes.cs.washington.edu/~wwill/, https://www.vidyasetlur.com/, and https://nicksultanum.github.io/web/. Nicole’s custom domain timed out during verification; her working GitHub-hosted personal website is used instead.
 
 The wall now includes agency, provenance, collaboration, and autonomy, with 17 measured red-thread connections. Desktop overlaps are confined to paper edges. Mobile notes stay in normal flow.
+
+## Link previews and favicon
+
+Open Graph and Twitter large-image metadata use `assets/social-preview.png`, the exact screenshot supplied by the user (1614 × 1222). Preview images use absolute production URLs. `assets/pin.svg` is the red pushpin tab icon. Social platforms control preview cropping and may cache earlier previews; the image is not loaded by the page itself.
