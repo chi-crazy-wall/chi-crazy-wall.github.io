@@ -52,7 +52,7 @@ Approved public profile photographs, retrieved September 29, 2026. Original imag
 - Nicole Sultanum: https://www.tableau.com/research/people/nicole-sultanum
 - Srishti Palani: https://www.tableau.com/research/people/srishti-palani
 - Vidya Setlur: https://www.vidyasetlur.com/
-- Dylan Wootton: https://vis.csail.mit.edu/ (member photograph at /imgs/people/dwootton.jpg)
+- Dylan Wootton: https://personalized.computer/assets/organizers/dylan-wootton.png (replacement portrait explicitly supplied by Dylan)
 
 Portraits total approximately 522 KB, excluded from the initial HTML/CSS payload target. They have reserved square dimensions and lazy loading.
 
