@@ -26,7 +26,7 @@ The mobile layout puts the event notice, in-page details link, PDF status, and l
 - Obtain an approved public PDF before adding the download. Expected asset: `assets/meetup-proposal.pdf`; label any public draft clearly, and do not preload or embed it.
 - Confirmed display affiliations: Dylan Wootton — MIT CSAIL; Vidya Setlur — Tableau Research / U Michigan; Srishti Palani and Nicole Sultanum — Tableau Research.
 - Confirm proposal acceptance/status, date, time, and room; unknown logistics remain TBA.
-- Public profile portraits were approved by the user and are included as locally served, lazy-loaded images. Organizer order: Nicole, Srishti, Vidya, Dylan, Huichen Will Wang. No registration, invented email, or attendance rules were added.
+- Public profile portraits were approved by the user and are included as locally served, lazy-loaded images. Organizer order matches the working paper: Srishti Palani, Dylan Wootton, Huichen Will Wang, Vidya Setlur, Nicole Sultanum. Each entire polaroid links to the organizer’s personal website. No registration, invented email, or attendance rules were added.
 - GitHub Pages publishes the `main` branch from the repository root.
 
 ## Verification
@@ -39,7 +39,7 @@ Measured locally in headless Microsoft Edge via the existing bundled Playwright:
 - JavaScript disabled at each requested width: complete content, working anchor navigation, and visible 3 px keyboard focus on all three links, including the skip link.
 - CSS viewport of 720 px with 2x pixel density: 200% zoom-equivalent reflow without horizontal overflow. Native browser zoom UI was not exercised.
 - Observed cumulative layout shift: 0 during a local load and one-second observation.
-- Raw HTML + CSS + JS: 23,921 bytes. Gzip-compressed asset payload: 7,253 bytes, below the 250 KB target. This is measured compression of the files, not a production network-transfer measurement; Python's preview server serves them uncompressed.
+- Raw HTML + CSS + JS: 24,777 bytes. Gzip-compressed asset payload: approximately 7.4 KB, below the 250 KB target. This is measured compression of the files, not a production network-transfer measurement; Python's preview server serves them uncompressed.
 - Site JavaScript: 1,788 bytes raw, 770 bytes gzipped. HTML, CSS, optional strings.js, plus five locally served, lazy-loaded portraits.
 - Real PDF link: cannot be tested without the supplied/approved file. Forthcoming fallback verified.
 
@@ -62,4 +62,6 @@ Portraits total approximately 522 KB, excluded from the initial HTML/CSS payload
 
 ## October 1 content update
 
-The working proposal broadens the focus to changing practices, emerging research questions, and community support. The concise website headline is “What is changing?”; the proposal’s working title is “Outlining the Emerging Research and Praxis Map of AI-Mediated Data Work.” Added Huichen Will Wang (University of Washington) and his public portrait from https://homes.cs.washington.edu/~wwill/ (images/headshot.jpg). Prior organizer order and explicitly approved affiliations are preserved. The page remains a proposed event with TBA logistics.
+The working proposal broadens the focus to changing practices, emerging research questions, and community support. The concise website headline is “What is changing?”; the proposal’s working title is “Outlining the Emerging Research and Praxis Map of AI-Mediated Data Work.” Added Huichen Will Wang (University of Washington) and his public portrait from https://homes.cs.washington.edu/~wwill/ (images/headshot.jpg). Explicitly approved affiliations are preserved. The page remains a proposed event with TBA logistics.
+
+Organizer card destinations: https://srishtipalani.com/, https://www.dylanwootton.com/, https://homes.cs.washington.edu/~wwill/, https://www.vidyasetlur.com/, and https://nicksultanum.github.io/web/. Nicole’s custom domain timed out during verification; her working GitHub-hosted personal website is used instead.
