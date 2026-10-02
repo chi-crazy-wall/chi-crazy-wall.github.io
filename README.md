@@ -71,3 +71,5 @@ The wall now includes agency, provenance, collaboration, and autonomy, with 17 m
 ## Link previews and favicon
 
 Open Graph and Twitter large-image metadata use `assets/social-preview.png`, the exact screenshot supplied by the user (1614 × 1222). Preview images use absolute production URLs. `assets/pin.svg` is the red pushpin tab icon. Social platforms control preview cropping and may cache earlier previews; the image is not loaded by the page itself.
+
+All organizer profile links open in a new tab with `noopener noreferrer`; in-page navigation stays on the current page.
