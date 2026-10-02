@@ -14,7 +14,7 @@ Open http://127.0.0.1:4173. Opening `index.html` directly also works.
 
 ## Edit
 
-- `index.html`: all event copy, metadata, and the four individually editable organizer entries. Duration and logistics appear in both the hero slip and practical details; update both.
+- `index.html`: all event copy, metadata, and the four individually editable organizer entries. Duration and TBA logistics appear in the hero slip. The lower details card deliberately says only “Details to come.”
 - `styles.css`: materials, deterministic note positions, responsive layout, visible focus, and reduced-motion support.
 - `assets/`: reserved for the approved proposal and optional approved portraits.
 

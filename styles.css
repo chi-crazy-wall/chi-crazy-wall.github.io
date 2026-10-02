@@ -146,3 +146,7 @@ footer span span{margin:0 10px}
 @media(max-width:1100px) and (min-width:901px){.agency{left:1%;width:165px}.collaboration{left:0;width:180px;font-size:21px;padding-inline:12px}.autonomy{right:0;width:165px}.provenance{left:37%;width:195px}}
 @media(max-width:900px){.agency,.provenance,.collaboration,.autonomy{position:relative;inset:auto;width:auto;transform:rotate(-1deg)}.loop{grid-column:1/-1;width:calc(50% - 12.5px)}}
 @media(max-width:540px){.collaboration{font-size:18px;letter-spacing:-.7px}.loop{width:calc(50% - 8.5px)}}
+
+.practical{display:grid;place-items:center;min-height:360px;text-align:center}
+.practical h2{font-size:clamp(44px,5vw,66px);line-height:1.05;letter-spacing:-2px;margin:0}
+@media(max-width:540px){.practical{min-height:260px}}
