@@ -123,3 +123,10 @@ footer span span{margin:0 10px}
 @media(max-width:900px){.loop{grid-column:1;grid-row:auto}.loop .which{top:25px;left:calc(100% + 16px);font-size:20px;gap:7px}}
 @media(max-width:540px){.loop .which{font-size:17px;left:calc(100% + 12px);gap:5px}.loop .which span{font-size:27px}}
 
+
+/* Five organizers, with the established order preserved. */
+.organizer-list{grid-template-columns:repeat(5,minmax(0,1fr))}
+.polaroid:nth-child(5){transform:rotate(-2deg)}
+.participation{font-size:12px;line-height:1.65;color:var(--muted);border-top:1px solid var(--line);padding-top:14px;margin:8px 0 18px}
+@media(max-width:1100px) and (min-width:901px){.organizer-list{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:900px){.organizer-list{grid-template-columns:repeat(2,minmax(0,1fr))}}
